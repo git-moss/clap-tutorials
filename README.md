@@ -12,4 +12,4 @@ cmake -Bbuild -DCMAKE_BUILD_TYPE=Debug
 cmake --build build --config Debug
 ```
 
-The result CLAP file will be in `ignore/build/clap-saw-demo.clap`.
+The result CLAP file will be in the build folder. E.g. on Windows in `build/Debug/moss-clap.clap`.
