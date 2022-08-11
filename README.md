@@ -6,7 +6,7 @@ Does nothing but the CLAP way :-)
 
 ```shell
 git clone https://github.com/git-moss/clap-tutorials.git
-cd clap-saw-demo
+cd clap-tutorials
 git submodule update --init --recursive
 cmake -Bbuild -DCMAKE_BUILD_TYPE=Debug
 cmake --build build --config Debug
